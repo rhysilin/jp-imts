@@ -5,9 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run download:images && tsc && vite build",
-    "preview": "vite preview",
-    "download:images": "node scripts/download-images.js"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fontsource/noto-sans-jp": "^5.0.0",
